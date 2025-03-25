@@ -15,3 +15,10 @@ body{
 em{
   font-family: "Cascadia Mono";
 }
+body{
+	color: navy;
+	color: rgb(23, 114, 180);
+	color: #2486b9;
+	color: rgba(49, 106, 158, 0.466);
+	color: #2775b6CC;
+}
