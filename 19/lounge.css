@@ -1,0 +1,87 @@
+body {
+  font-size:           small;
+  font-family:         Verdana, Helvetica, Arial, /*sans-serif*/;
+  line-height:         1.6em;
+}
+h1, h2 {
+  color:               #007e7e;
+}
+h1 {
+  font-size:           1.5em;
+}
+h2 {
+  font-size:           1.3em;
+}
+.guarantee {
+  border-color:        white;
+  border-width:        1px;
+  border-style:        dashed;
+  background-color:    #a7cece;
+  padding:             25px; /* 新增内边距 */
+  margin:              30px; /* 新增外边距 */
+  line-height:         1.9em;/* 新增行高 */
+  font-style:          italic;/* 斜体 */
+  color:               #444444/* 字体颜色 */;
+  font-family:         Georgia, "Times New Roman", Times, serif;/* 字体 */
+  background-image:     url(images/background.gif);
+  background-repeat: no-repeat;
+  background-position: top left;
+  padding: 25px;
+  padding-left: 80px;
+  margin-right: 40px;
+  border-radius: 0 30px 0 30px; /* 圆角 */;
+}
+.guarantee a{
+  text-decoration: none;
+}
+.guarantee a:link {
+  color: #0b6161;
+}
+.guarantee a:visited {
+  color: #5c5959;
+}
+.guarantee a:hover {
+  background: #c95d6f;
+}
+
+.elixirs {
+  border-width: thin;
+  border-style: solid;
+  border-color: #007e7e;
+  width: 200px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  margin-left: 20px;
+  background-image: url(images/cocktail.gif);
+  background-repeat: repeat-x;
+  text-align: center;
+  line-height: 1;
+}
+.elixirs h2 {
+  color: black;
+}
+.elixirs h3 {
+  color: #d12c47;
+}
+
+.cd {
+  font-style: italic;
+}
+.artist {
+  font-weight: bold;
+}
+
+.elixirs a{
+  text-decoration: none;
+}
+.elixirs a:link {
+  color: #007e7e;
+}
+.elixirs a:visited {
+  color: #333333;
+} 
+.elixirs a:hover {
+  background: #f88396;
+  color: #0d5353;
+}
