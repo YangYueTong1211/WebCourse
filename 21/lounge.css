@@ -31,18 +31,6 @@ h2 {
   margin-right: 40px;
   border-radius: 0 30px 0 30px; /* 圆角 */;
 }
-.guarantee a{
-  text-decoration: none;
-}
-.guarantee a:link {
-  color: #0b6161;
-}
-.guarantee a:visited {
-  color: #5c5959;
-}
-.guarantee a:hover {
-  background: #c95d6f;
-}
 
 .elixirs {
   border-width: thin;
@@ -57,34 +45,11 @@ h2 {
   background-repeat: repeat-x;
   text-align: center;
   line-height: 1;
+  float:right;
 }
 .elixirs h2 {
   color: black;
 }
 .elixirs h3 {
   color: #d12c47;
-}
-
-.cd {
-  font-style: italic;
-}
-.artist {
-  font-weight: bold;
-}
-
-.elixirs a{
-  text-decoration: none;
-}
-.elixirs a:link {
-  color: #007e7e;
-}
-.elixirs a:visited {
-  color: #333333;
-} 
-.elixirs a:hover {
-  background: #f88396;
-  color: #0d5353;
-}
-.test{
-  color blue ;
 }
