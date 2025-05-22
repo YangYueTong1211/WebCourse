@@ -16,8 +16,8 @@
         <section class="card-grid">
             <article class="campus-card"> <!-- 学生生活卡片 -->
                 <figure class="card-image">
-                    <img src="../fangzhan/images/Campus-life-1.webp" alt="Student dormitory and social activities" 
-                         style="width: var(--card-width); height: var(--card-height);"> <!-- 学生宿舍和社交活动图片 -->
+                    <!-- 添加内联样式设置图片大小 -->
+                    <img src="../仿站（最终）/images/Campus-life-1.webp" alt="Student dormitory and social activities" style="width: var(--card-width); height: var(--card-height);"> 
                 </figure>
                 <div class="card-content">
                     <h3>Student Life</h3>
@@ -25,7 +25,7 @@
                     <a href="#" class="animated-arrow">Student Affairs </a>
                 </div>
             </article>
-
+            <!-- 后续内容保持和 f:\09YangYueTong\MyHomework\仿站（最终）\stanford.html 一致 -->
             <article class="campus-card"> <!-- 艺术与文化卡片 -->
                 <figure class="card-image">
                     <img src="../fangzhan/images/Campus-life-2.webp" alt="Campus art exhibition" 
@@ -53,50 +53,52 @@
         <a href="#" class="red-block-button">More about Academics</a> <!-- 更多学术信息按钮 -->
     </main>
 
-    <header> <!-- 页面头部，包含体育相关标题和介绍 -->
-        <h1 class="athletics-title">Athletics</h1>
-        <p class="intro">Providing student-athletes the opportunity to achieve excellence both in <br> competition and in the classroom</p>
-    </header>
-    <hr class="divider" > <!-- 第二条分隔线 -->
-    <main> <!-- 主要内容区域，包含体育相关卡片和按钮 -->
-        <section class="card-grid">
-            <article class="campus-card"> <!-- 冠军之家卡片 -->
-                <figure class="card-image">
-                    <img src="../fangzhan/images/Gym-champs-1499x937.jpg" alt="Student dormitory and social activities" 
-                         style="width: var(--card-width); height: var(--card-height);"> <!-- 学生宿舍和社交活动图片 -->
-                </figure>
-                <div class="card-content">
-                    <h3>Home of Champions</h3>
-                    <p>Stanford's 137 NCAA championships are the most for any university, a product of an unrivaled culture of excellence and continued support from the campus community</p>
-                    <a href="#" class="animated-arrow">National Championships </a>
-                </div>
-            </article>
-
-            <article class="campus-card"> <!-- 奥运卓越成就卡片 -->
-                <figure class="card-image">
-                    <img src="../fangzhan/images/Impact-1499x937.jpg" alt="Campus art exhibition" 
-                         style="width: var(--card-width); height: var(--card-height);"> <!-- 校园艺术展览图片 -->
-                </figure>
-                <div class="card-content">
-                    <h3>Olympic Excellence</h3>
-                    <p>The Cardinal has produced at least one medalist in every Olympics in which the U.S. has competed since 1912, totaling 335 medals from 196 medalists</p>
-                    <a href="#" class="animated-arrow">Medals </a>
-                </div>
-            </article>
-
-            <article class="campus-card"> <!-- 多维影响卡片 -->
-                <figure class="card-image">
-                    <img src="../fangzhan/images/Ledecky2-1499x937.webp" alt="Campus fitness center" 
-                         style="width: var(--card-width); height: var(--card-height);"> <!-- 校园健身中心图片 -->
-                </figure>
-                <div class="card-content">
-                    <h3>Multidimensional Impact</h3>
-                    <p>Stanford student-athletes have achieved local, national, and global impact through community involvement and advocacy</p>
-                    <a href="#" class="animated-arrow">Athlete Stories</a>
-                </div>
-            </article>
-        </section>
-        <a href="#" class="red-block-button">More about Athletics</a> <!-- 更多体育信息按钮 -->
-    </main>
+    <div class="athletics-wrapper">
+        <header class="athletics-section"> <!-- 页面头部，包含体育相关标题和介绍 -->
+            <h1 class="athletics-title">Athletics</h1>
+            <p class="intro">Providing student-athletes the opportunity to achieve excellence both in <br> competition and in the classroom</p>
+        </header>
+        <hr class="divider" > <!-- 第二条分隔线 -->
+        <main class="athletics-section"> <!-- 主要内容区域，包含体育相关卡片和按钮 -->
+            <section class="card-grid">
+                <article class="campus-card"> <!-- 冠军之家卡片 -->
+                    <figure class="card-image">
+                        <img src="../fangzhan/images/Gym-champs-1499x937.jpg" alt="Student dormitory and social activities" 
+                             style="width: var(--card-width); height: var(--card-height);"> <!-- 学生宿舍和社交活动图片 -->
+                    </figure>
+                    <div class="card-content">
+                        <h3>Home of Champions</h3>
+                        <p>Stanford's 137 NCAA championships are the most for any university, a product of an unrivaled culture of excellence and continued support from the campus community</p>
+                        <a href="#" class="animated-arrow">National Championships </a>
+                    </div>
+                </article>
+    
+                <article class="campus-card"> <!-- 奥运卓越成就卡片 -->
+                    <figure class="card-image">
+                        <img src="../fangzhan/images/Impact-1499x937.jpg" alt="Campus art exhibition" 
+                             style="width: var(--card-width); height: var(--card-height);"> <!-- 校园艺术展览图片 -->
+                    </figure>
+                    <div class="card-content">
+                        <h3>Olympic Excellence</h3>
+                        <p>The Cardinal has produced at least one medalist in every Olympics in which the U.S. has competed since 1912, totaling 335 medals from 196 medalists</p>
+                        <a href="#" class="animated-arrow">Medals </a>
+                    </div>
+                </article>
+    
+                <article class="campus-card"> <!-- 多维影响卡片 -->
+                    <figure class="card-image">
+                        <img src="../fangzhan/images/Ledecky2-1499x937.webp" alt="Campus fitness center" 
+                             style="width: var(--card-width); height: var(--card-height);"> <!-- 校园健身中心图片 -->
+                    </figure>
+                    <div class="card-content">
+                        <h3>Multidimensional Impact</h3>
+                        <p>Stanford student-athletes have achieved local, national, and global impact through community involvement and advocacy</p>
+                        <a href="#" class="animated-arrow">Athlete Stories</a>
+                    </div>
+                </article>
+            </section>
+            <a href="#" class="red-block-button">More about Athletics</a> <!-- 更多体育信息按钮 -->
+        </main>
+    </div>
 </body>
 </html>
